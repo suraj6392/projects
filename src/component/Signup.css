@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(#2A00B7, #42006C);
+    height: 100vh;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    padding-bottom: 20px;
+
+
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 2rem;
+    color: #2A00B7;
+    font-weight: bold;
+
+}
+
+.underline {
+    width: 90px;
+    height: 4px;
+    background-color: #2A00B7;
+    margin: 10px auto;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    background-color: #f9f9f9;
+}
+
+.input img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.input input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #797979;
+}
+
+.forget-password {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 20px;
+    text-align: start;
+    margin-left: -160px;
+}
+
+.forget-password span {
+    color: #2A00B7;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.submit-btns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.submit-btns button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 1rem;
+
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #EAEAEA;
+    background-color: #2A00B7;
+    transition: background-color 0.3s ease;
+}
+
+.gray {
+    background: #EAEAEA;
+    color: #676767;
+}
