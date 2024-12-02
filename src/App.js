@@ -4,14 +4,15 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import './App.css';
 
+import SignUp from './component/SignUp';
+
+
+
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" exact component={Login} />
-        <Route path="/register" component={Register} />P
-      </Routes>
-    </Router>
+    <div >
+      <SignUp/>
+    </div>
   );
 }
 

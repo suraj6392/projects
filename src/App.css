@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+  
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +37,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MynavBar{
+  background-color: rgb(24, 46, 88);
 }
