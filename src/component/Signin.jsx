@@ -6,7 +6,7 @@ import School_icon from "./Assets/School.png";
 import Degree_icon from "./Assets/Degree.png";
 import Call_icon from "./Assets/Call.png";
 import "./Signin.css"
-function Signin() {
+function Signin1() {
   return (
     <div className="container1">
       <div className="header">
@@ -56,4 +56,4 @@ function Signin() {
   );
 }
 
-export default Signin;
+export default Signin1;
